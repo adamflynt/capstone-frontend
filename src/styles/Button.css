@@ -1,0 +1,110 @@
+.btn {
+  padding: 8px 20px;
+  width: 100%;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: #192e42;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.btn--outline {
+  background-color: #2fc197;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.btn--main--outline {
+  background-color: #2fc197;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.btn--accounts--outline,
+.btn--accounts--close {
+  background-color: #2fc197;
+  max-width: 50%;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.btn--small,
+.btn--main--small {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.btn--medium,
+.btn--main--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large,
+.btn--main--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--accounts--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 250ms;
+}
+
+.btn--small:hover {
+  transition: all 0.3s ease-out;
+  background: #2fc197;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 250ms;
+}
+
+.btn--main--large:hover,
+.btn--main--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #192e42;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 250ms;
+}
+
+.btn--accounts--large:hover {
+  transition: all 0.3s ease-out;
+  background: #192e42;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 250ms;
+}
+
+.btn--accounts--close:hover {
+  transition: all 0.3s ease-out;
+  background: #c12f2f;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 250ms;
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+
+.signup-container {
+  width: 100%;
+  min-width: 600px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #192e42;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  overflow-y: auto;
+}
+
+.footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
